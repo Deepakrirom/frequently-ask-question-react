@@ -16,7 +16,7 @@ const FAQItem = ({ faq }) => {
         <span>{showAnswer ? <IoIosArrowUp /> : <IoIosArrowDown />}</span>
       </h3>
 
-      {showAnswer && <p className="mt-2 text-sm font-semibold text-gray-600">{faq.answer}</p>}
+      {showAnswer && <p className="mt-2 text-sm font-semibold text-gray-600 mb-6">{faq.answer}</p>}
     </div>
   );
 };
